@@ -1,0 +1,7 @@
+.products {
+  height: 814px;
+  background-color: #e6e8ea;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

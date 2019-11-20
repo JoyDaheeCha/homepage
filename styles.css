@@ -1,4 +1,7 @@
 @import "./reset.css";
+@import "./intro.css";
+@import "./about.css";
+@import "./products.css";
 
 * {
   box-sizing: border-box;
@@ -9,55 +12,26 @@ body {
   width: 1920px;
 }
 
-.intro {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-image: url("./img/img-main.png");
-  background-repeat: no-repeat;
-  background-size: auto;
-  width: 100%;
-  height: 1080px;
+button {
+  transition-duration: 0.2s;
 }
 
-.intro__category {
-  width: 100%;
-  height: 80px;
-  padding: 0px 60px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+button:hover {
+  opacity: 0.5;
+  cursor: pointer;
 }
 
-.category__center {
-  display: flex;
-}
-
-.center__item {
-  width: 160px;
-  height: 24px;
+.section__title {
+  width: 500px;
+  height: 48px;
   font-family: Helvetica;
-  font-size: 16px;
+  font-size: 36px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.5;
+  line-height: 1.33;
   letter-spacing: normal;
   text-align: center;
-  color: white;
-}
-
-.category__left {
-  width: 186px;
-  height: 26px;
-}
-
-.category__right > button {
-  width: 60px;
-  height: 30px;
-  border-radius: 15px;
-  border: solid 1px white;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.2);
-  margin-right: 24px;
+  color: #047bf8;
+  margin: 120px 0px 72px 0px;
 }
